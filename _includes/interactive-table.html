@@ -19,7 +19,7 @@
 	{% for post in site.posts %}
 		<tr>
 			<td class="name"><a target="_blank" href="{{ post.webpage }}">{{ post.name }}</a></td>
-			<td class="description">{{ post.description }}</td>
+			<td class="description">{{ post.description | markdownify }}</td>
 			<td class="source"><a target="_blank" href="{{ post.source }}">Reddit</a></td>
 			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
