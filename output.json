@@ -3,6 +3,7 @@ layout: none
 ---
 [{% for post in site.posts %}{
 	"name": "{{post.name}}",
+ 	"webpage": "{{post.webpage}}",
 	"description": "{{post.description}}",
 	"source": "{{post.source}}",
 	"tags": "{{ post.tags | array_to_sentence_string }}",
