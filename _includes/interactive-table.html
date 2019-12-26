@@ -20,7 +20,7 @@
 		<tr>
 			<td class="name">{{ post.name }}</td>
 			<td class="description">{{ post.description }}</td>
-			<td class="source">{{ post.source }}</td>
+			<td class="source"><a href="{{ post.source }}">Reddit</a></td>
 			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
