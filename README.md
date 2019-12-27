@@ -3,6 +3,6 @@ ELI5 Software &amp; Technology gathers up simple explanations in a layperson-fri
 
 Head over to https://mainstringargs.github.io/eli5-software-technology/ and take a look!
 
-To submit updates to this, please either open an issue or submit a pull request.  Thank you!
+To submit updates to this, please either open an issue or submit a pull request.  See [here](https://github.com/mainstringargs/eli5-software-technology/tree/master/_posts) for how the entries are laid out. Thank you!
 
 Note:  This was initially based on http://rypan.github.io/jekyll-db
