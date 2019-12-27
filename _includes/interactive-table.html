@@ -16,7 +16,7 @@
 		</tr>
 	</thead>
 	<tbody class="list">
-	{% for post in site.posts | sort: 'name' %}
+	{% for post in site.posts %}
 		<tr>
 			<td class="name"><a target="_blank" href="{{ post.webpage }}">{{ post.name }}</a></td>
 			<td class="description">{{ post.description | markdownify }}</td>
