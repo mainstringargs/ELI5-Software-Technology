@@ -1,0 +1,20 @@
+---
+layout: entry
+name: Node.js
+webpage: https://nodejs.org/
+description: "Node.js is a JavaScript interpreter plus a set of libraries that let your code interact with the operating system (something unusual for JavaScript, which is normally sandboxed by the browser)\n.
+\n
+The javascript interpreter part is borrowed directly from Chrome. Chrome's V8 engine was open-sourced by Google, and it is used to run javascript similarly to how Java code can be run by the Java Runtime Environment, and C# can be run by the .Net runtime environment. One difference is that javascript interpreters don't make you compile your code first, so you can edit the human-readable source code and immediately re-run it to see the results.\n
+\n
+The end result is that developers are now able to write new kinds of applications in javascript. They aren't limited to client-side web apps now. They can run javascript on the server-side, as well as on the desktop now.\n
+\n
+It opens javascript up to a lot of new functionality. Some people hate this, because javascript can be a pretty messy language. But, personally, I find the language's flexibility refreshing. It lets you drop in and out of object-oriented and functional programming as you see fit, and has powerful type coercion to go with its dynamic typing. It's also UTF-8 by default, so it works well around the world. And javascript is one of the easiest languages to learn. But it has enough depth that it takes years to master.\n
+\n
+One related tool that has grown to be fundamental to the Node.js ecosystem is the package manager, called NPM. It makes it really simple to find and use other people's code within your own project. And since javascript isn't compiled as a separate step, you can edit any code from any package. You can use it unaltered or altered. And if you alter it, you can easily reshare your version of it.\n
+\n
+What else? Node.js makes it really quick and easy to write any type of program that uses the internet. Sending/receiving/interpreting/responding to data over the internet can be cumbersome in many languages like the .NET family, Java, and Perl. It takes a lot of lines of code in these languages. But Node.js makes these kinds of programs simple. You can do most internet-related tasks in 5 - 50 lines of code, mostly because javascript was built for the internet. .NET was also built for the internet, but it had to be based on and inter-operate with C++."
+source: https://www.reddit.com/r/explainlikeimfive/comments/2la65z/eli5what_is_nodejs_and_what_makes_it_so_different/clswi0t?utm_source=share&utm_medium=web2x
+tags:
+- Runtime environment
+- Javascript
+---
