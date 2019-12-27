@@ -1,7 +1,8 @@
 ---
 layout: none
 ---
-[{% for post in site.posts %}{
+{% assign sorted_name = site.posts | sort:'name' %}
+[{% for post in sorted_name %}{
 	"name": "{{post.name}}",
  	"webpage": "{{post.webpage}}",
 	"description": "{{post.description}}",
