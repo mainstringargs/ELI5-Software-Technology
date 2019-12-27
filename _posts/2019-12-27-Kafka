@@ -1,0 +1,12 @@
+---
+layout: entry
+name: Apache Kafka
+webpage: https://kafka.apache.org/
+description: "Kafka is useful because servers crash, and a Kafka cluster can keep itself together even if one Kafka server crashes. If your producers send directly to your consumers, then if any consumer crashes before doing work, you've lost those messages. If a Kafka consumer crashes, it can just re-ask Kafka for the data when it starts up; if a Kafka server crashes, the producers and consumers can just talk to a different server (unless too many Kafka servers crash at once, and you can configure how many is 'too many')\n.
+\n
+Kafka is also useful because it gives you a level of abstraction between your producers and your consumers. They both only need to know how to find Kafka, and the system will configure itself based on what they say. If your producers talk straight to your consumers, then they not only need to know who all the consumers are, they need to know if you ever add a consumer. \n"
+source: https://www.reddit.com/r/learnprogramming/comments/3urb84/eli5_what_is_a_messaging_system_like_kafka/cxheiar?utm_source=share&utm_medium=web2x
+tags:
+- Message Broker
+- Stream Processing
+---
